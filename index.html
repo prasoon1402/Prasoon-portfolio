@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prasoon- frontend developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(149, 149, 232);
+        font-size: 1.2rem;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 80px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 2.5rem;
+      }
+      .rightSection img {
+        width: 80%;
+      }
+      .purple {
+        color: rgb(170, 107, 230);
+      }
+      .text-grey {
+        color: grey;
+      }
+      #element {
+        color: rgb(170, 107, 230);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 60vh;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+      .secondSection .box {
+        background: white;
+        width: 60vw;
+        height: 5px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 150px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width:150px;
+      }
+      .vertical-desc {
+        position:relative;
+        top:86px;
+        color:gray;
+        width:150px;
+        font-size: 12px;
+      }
+      main hr{
+         border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .thirdSection{
+         max-width: 80vw;
+        margin: auto;
+        height: 60vh;
+      }
+      .fourthSection{
+         max-width: 70vw;
+        margin: auto;
+        height: 40vh;
+      }
+      footer{
+       background-color: #0e0e1a;  
+       height:200px;
+       justify-content: space-evenly;
+      }
+      .footer-first{
+        display: flex;
+        padding: 23px 122px;
+      }
+      .footer-second{
+        display:flex;
+        padding:23px 122px;
+      }
+      footer ul{
+        list-style:none ;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Prasoon's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Prasoon</span>
+          <div>and I am a Passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png.png" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-grey">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="developer.png" />
+            <div class="vertical-title">HTML Developer (2020-2022)</div>
+            <div class="vertical-desc">
+              The first web topic which i have read was html. I was so happy to create various 
+              webpages and structures and then i have created HTML Forms and Tables AND after 
+              that i learn how to  add various features and tags to our web pages.
+            </div>
+          </div>
+           <div class="vertical">
+            <img class="image-top" src="developer.png" />
+            <div class="vertical-title">Css Developer (2022-2023)</div>
+            <div class="vertical-desc">
+              After Learning HTML in web Our next topic was Css. In this section i read how
+              to style HTML elements and add various animations which makes our web pages 
+              more attractive and loaded with more features to oue web pages.
+            </div>
+          </div>
+           <div class="vertical">
+            <img class="image-top" src="developer.png" />
+            <div class="vertical-title">JavaScript Developer (2023-2024)</div>
+            <div class="vertical-desc">
+              After HTML and Css i read Javascript which makes a website interactive and 
+              dynamic too. It adds interactivity like respondind to button clicks, form 
+              submissions and mouse movements.It also adds various Functionality.
+            </div>
+          </div>
+      </section>
+      <hr/>
+      <section class="thirdSection">
+        <h1>Projects :-</h1><br><br>
+        <ol>
+          <li><h4>Personal Portfolio :</h4>I have Created my personal portfolio using html,Css,Javascript and added some animations and png images.</li><br><br>
+          <li><h4>TextUtlis App :</h4>I have Created TextUtlis App using React.js . It have features like conversion of letter from UpperCase to LowerCase, word Counting, ClearText, CopyText.</li><br><br>
+          <li><h4>News App :</h4>I have created news app named NewsMonkey using react.js class based components which have features of showing news fetched from News Api.</li><br><br>
+          <li><h4>BoatClone App :</h4>I have created BoatClone app Using frontend tools html,css,javascript which contain list of boat item which should be ordered online.</li>
+        </ol>
+      </section>
+      <hr/>
+      <section class="fourthSection">
+       <h1>About Me :-</h1> <br><br>
+       <ul>
+        <li> I am Prasoon Tiwary. I belong to Dehri On Sone (Bihar).I have done Bachelor Degree BCA from Gopal Narayan Singh University.I am quick learner as well as hard working person. I am good in Programming languages like HTML,CSS,JAVASCRIPT and REACT.JS etc. I have done various projects related to frontend development which are mentioned above in Project Section. I am a cool hearted person , so usually see every difficulty with a positive side and keep myself always smiling which makes me stronger even more. I can carry out task assigned to me without hesitation. My Hobbies are Internet Surfing , Listening to music , travelling to various places.That's all about me. </li>
+       </ul>
+      </section>
+    </main>
+    <footer>
+      <div class="flex">
+    <div class="footer-first">
+      <h3>Prasoon's frontend Developer Portfolio</h3>
+    </div>
+    <div class="footer-second">
+      <ul>
+        <li><a href="About">About</a></li>
+        <li><a href="Projects">Projects</a></li>
+        <li><a href="Contact Me">Contact Me</a></li>
+      </ul>
+    </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Vedio Editor", "Debugger", "FrontEnd Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
